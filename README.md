@@ -2,7 +2,7 @@
 YOLOv4 (You Only Look Once version 4) is a real-time object detection algorithm. TensorFlow is an open-source machine learning framework, and DeepSort is a real-time multi-object tracking algorithm.You would use TensorFlow to implement the YOLOv4 model and run it on a video stream to detect the objects in real-time. Finally, you would use the DeepSort algorithm to track the detected objects over time by matching their detections across frames and estimating their positions.
 
 ## YOLOv4 Object Detection Model
-Object detection using YOLOv4 from scratch and have some basic concept over object detection model via the flow diagram.
+Object detection using YOLOv4 model from scratch and have some basic concept over object detection model via the flow diagram how it works under the hood.
 
 ![This is an image](/images/AO.png)
 
