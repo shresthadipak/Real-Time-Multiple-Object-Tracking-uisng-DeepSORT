@@ -24,9 +24,9 @@ Overall, YOLOv4 architecture is more efficient and accurate than YOLOv3.
 ## DeepSORT
 ![This is an image](/images/deepsort-architecture.jpg)
 
-SORT performs very well in terms of tracking precision and accuracy. But SORT returns tracks with a high number of ID switches and fails in case of occlusion. SORT cannot handle occulsion that only relies on a simple motion model. What kind of occulsion occur that SORT cannot tracked an object, i.e. if an object is obscured by another object that unable to tracked.
+SORT performs very well in terms of tracking precision and accuracy. But SORT returns tracks with a high number of ID switches and fails in case of occlusion. SORT cannot handle occulsion that only relies on a simple motion model. What kind of occulsion occurs that SORT cannot tracked an object, i.e. if an object is obscured by another object that unable to tracked.
 
-To overcome the problem of SORT, DeepSORT was introduced which tracks objects not only based on the velocity and motion of the object but also the appearence of the object. To train the deep association model in the DeepSORT cosine metric learning approach is used. Cosine Distance is a metric that helps the model recover identities in case of lont term occlusion and motion estimation also fails.
+To overcome the problem of SORT, DeepSORT was introduced which tracks objects not only based on the velocity and motion of the object but also the appearence of the object. To train the deep association model in the DeepSORT cosine metric learning approach is used. Cosine Distance is a metric that helps the model recover identities in case of long term occlusion and motion estimation also fails.
 
 #### Steps for Tracking an objects:
 Step 1: Object detection and Recognition  
