@@ -29,8 +29,10 @@ SORT performs very well in terms of tracking precision and accuracy. But SORT re
 To overcome the problem of SORT, DeepSORT was introduced which tracks objects not only based on the velocity and motion of the object but also the appearence of the object. To train the deep association model in the DeepSORT cosine metric learning approach is used. Cosine Distance is a metric that helps the model recover identities in case of lont term occlusion and motion estimation also fails.
 
 #### Steps for Tracking an objects:
-Step 1: Object detection and Recognition 
+Step 1: Object detection and Recognition  
+
 Step 2: Motion prediction and feature generation 
+
 Step 3: Tracking 
 
 ## License
